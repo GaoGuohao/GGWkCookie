@@ -10,7 +10,9 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
-WKWebView管理cookie是很麻烦事，经常出现 App自定义cookie的值丢失 或 更新不及时 的情况；通过长期踩坑，总结出WKWebview管理cookie的一种方案。主要原理为 WKWebview支持的插入脚本的方式，在每次页面渲染前，通过插入的Js脚本检测Cookie是否存在，如不存在，将cookie重新种入的思路。
+WKWebView管理cookie是很麻烦事，经常出现 App自定义cookie的值丢失 或 更新不及时 的情况。
+通过长期踩坑，总结出WKWebview管理cookie的一种方案。
+主要原理为 WKWebview支持的插入脚本的方式，在每次页面渲染前，通过插入的Js脚本检测Cookie是否存在，如不存在，将cookie重新种入的思路。
 
 ####注意：因为考虑避免子域名和根域名cookie重复出现，该方法所有的Cookie值将种在 根域名上。####
 
@@ -29,10 +31,10 @@ pod 'GGWkCookie'
 #import "GGWkCookie.h"
 ```
 
-2.实现 协议 <GGWkWebViewDelegate>
+2.实现 ```<GGWkWebViewDelegate>``` 协议 
 ```objc
-    ///设置cookie代理
-    webView.cookieDelegate = self;
+ ///设置cookie代理
+ webView.cookieDelegate = self;
 
 /// 代理方法中设置 app自定义的cookie
 - (NSDictionary *)webviewSetAppCookieKeyAndValue {
