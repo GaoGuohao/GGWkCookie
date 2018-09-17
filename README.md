@@ -31,6 +31,10 @@ pod 'GGWkCookie'
 ```objc
 #import "GGWkCookie.h"
 ```
+或
+```
+#import <GGWkCookie/GGWkCookie.h>
+```
 
 2.实现 ```<GGWkWebViewDelegate>``` 协议 ，开启cookie开关 ```startCustomCookie()```:
 ```objc
