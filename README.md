@@ -36,7 +36,7 @@ pod 'GGWkCookie'
 #import <GGWkCookie/GGWkCookie.h>
 ```
 
-2.实现 ```objc <GGWkWebViewDelegate>``` 协议 ，开启cookie开关 ```objc startCustomCookie()```:
+2.实现 ```<GGWkWebViewDelegate>``` 协议 ，开启cookie开关 ```startCustomCookie()```:
 ```objc
  // 设置cookie代理
  webView.cookieDelegate = self;
@@ -53,12 +53,12 @@ pod 'GGWkCookie'
 }
 ```
 
-3.如果代理中的cookie发生改变，调用 ```objc reloadCookie()``` 更新cookie,
-```objc - (NSDictionary *)webviewSetAppCookieKeyAndValue```代理方法将获取最新的cookie值。
+3.如果代理中的cookie发生改变，调用 ```reloadCookie()``` 更新cookie,
+```- (NSDictionary *)webviewSetAppCookieKeyAndValue```代理方法将获取最新的cookie值。
 
 总结：
 所以，我们只需要维护好 ```objc - (NSDictionary *)webviewSetAppCookieKeyAndValue```的代理方法，
-在需要更新的时调用 ```objc reloadCookie()``` 方法即可。
+在需要更新的时调用 ```reloadCookie()``` 方法即可。
 
 
 ## Author
