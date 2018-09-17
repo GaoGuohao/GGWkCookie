@@ -57,7 +57,10 @@ pod 'GGWkCookie'
 ```- (NSDictionary *)webviewSetAppCookieKeyAndValue```代理方法将获取最新的cookie值。
 
 总结：
-所以，我们只需要维护好 ```objc - (NSDictionary *)webviewSetAppCookieKeyAndValue```的代理方法，
+所以，我们只需要维护好代理方法的返回值
+```objc
+- (NSDictionary *)webviewSetAppCookieKeyAndValue
+```
 在需要更新的时调用 ```reloadCookie()``` 方法即可。
 
 
