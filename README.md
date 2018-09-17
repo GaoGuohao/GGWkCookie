@@ -22,7 +22,7 @@ pod 'GGWkCookie'
 
 ## Author
 
-gaoguohao, gaoguohao@jiehun.com.cn
+gaoguohao, guohaoggh@163.com
 
 ## License
 
