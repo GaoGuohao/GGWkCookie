@@ -34,9 +34,10 @@ pod 'GGWkCookie'
 
 2.实现 ```<GGWkWebViewDelegate>``` 协议 ，开启cookie开关 ```startCustomCookie()```:
 ```objc
- ///设置cookie代理
+ // 设置cookie代理
  webView.cookieDelegate = self;
- /// 开启自定义cookie（在loadRequest前开启）
+ 
+ // 开启自定义cookie（在loadRequest前开启）
  [webView startCustomCookie];
 
 /// 代理方法中设置 app自定义的cookie
