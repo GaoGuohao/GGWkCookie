@@ -9,11 +9,11 @@
 Pod::Spec.new do |s|
   s.name             = 'GGWkCookie'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of GGWkCookie.'
+  s.summary          = '解决 WKWebView cookie 设置难题'
 
-  s.description      = <<-DESC
-   解决 WKWebView cookie 设置难题。
-                       DESC
+#s.description      = <<-DESC
+#   解决 WKWebView cookie 设置难题。
+#                      DESC
 
   s.homepage         = 'https://github.com/gaoguohao/GGWkCookie'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -29,7 +29,6 @@ Pod::Spec.new do |s|
     'GGWkCookie' => ['GGWkCookie/Assets/*']
   }
 
-  s.public_header_files = 'Pod/Classes/GGWkCookie.h'
+  s.public_header_files = 'GGWkCookie/Classes/GGWkCookie.h'
   s.frameworks = 'WebKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
