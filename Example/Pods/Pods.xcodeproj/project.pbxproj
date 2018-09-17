@@ -1,0 +1,862 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0983C7B41BEA7DB12AD60C881151B13D /* GGWkBundelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A71347C19882F5AD9B866DBA858CAE /* GGWkBundelManager.m */; };
+		20DDE971372E231372E6264855FDD3C8 /* Pods-GGWkCookie_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B18DC9FD960EBA6E972FAF6F77DD15D /* Pods-GGWkCookie_Tests-dummy.m */; };
+		24E86302AF2CD90FCA14FDCC421E41D9 /* Pods-GGWkCookie_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 529E98FA29CCF1560D057D894C2726A4 /* Pods-GGWkCookie_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DC0E47EEF636017B62DDDDCA4E1F73B /* Pods-GGWkCookie_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 883AECB5866174DD5B3EACC2EF030B4D /* Pods-GGWkCookie_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E0CE21063061EE73E227E218D4107C8 /* WKWebView+Swizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = 643FBBC34A86986F9307366DD7581335 /* WKWebView+Swizzling.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		589D026641D1116ECC8006CA49C2D06B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 596A5E7C40FB07FDAA78D426185FA95B /* Foundation.framework */; };
+		5A86A508CC210A6BDEF561EF5229AD0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 596A5E7C40FB07FDAA78D426185FA95B /* Foundation.framework */; };
+		6020F0C40E74C3F97A5854F822EA004B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDDB8272AF7DA52CED82F42852514AD3 /* WebKit.framework */; };
+		774ACBBF08A9A46BE6363091451B8CDA /* GGWkCookie.h in Headers */ = {isa = PBXBuildFile; fileRef = 92F40171C8945BEE21EF0A14E3C58CD6 /* GGWkCookie.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DB0F14EC3DDC479DA0B9729FF6B1A8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 596A5E7C40FB07FDAA78D426185FA95B /* Foundation.framework */; };
+		7EC174E2D5350814D9523F4F4B515DC4 /* WKWebView+GGCookie.m in Sources */ = {isa = PBXBuildFile; fileRef = D5939C2995CD5393C4C52D98DEEDE352 /* WKWebView+GGCookie.m */; };
+		8C55C58DF12CD59F60FB8DAEB5212C92 /* WKWebView+Attribute.h in Headers */ = {isa = PBXBuildFile; fileRef = E177286004AEFA50CE27F0F0F8F500F9 /* WKWebView+Attribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D9F8B5EF0A274D337AD90DD14C6E821 /* GGWkCookie.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 42FA378068EF3AA8C60865CC9CEDE0A2 /* GGWkCookie.bundle */; };
+		AFC8ADE285EEA672D5A06A85A8F9A288 /* Pods-GGWkCookie_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 646CA863DB78534321BE0345DADD999D /* Pods-GGWkCookie_Example-dummy.m */; };
+		B52ED6463F48AF002DD9FF2F701FEE55 /* GGWkCookie-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3411E074EA4FB82AF0025E700643920 /* GGWkCookie-dummy.m */; };
+		BFD50BD8BD2443FB1F2620335A606E4F /* WKWebView+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F936486466494E99DECE9B5894BB03 /* WKWebView+Swizzling.m */; };
+		C4B1BDCA64E0546AE1F55F55449E76BD /* WKWebView+Attribute.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B00E0AE99395B173A0F0DD524F3024 /* WKWebView+Attribute.m */; };
+		C94B5123A4B6E988C5880BA9612C8161 /* GGWkCookie-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 795DA24D5DAFF79CD900CF0706342368 /* GGWkCookie-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0FE421388E2F6F29209391AFD08407B /* WKWebView+GGCookie.h in Headers */ = {isa = PBXBuildFile; fileRef = 0633ABA92851A31770090BDD9DA7FBFA /* WKWebView+GGCookie.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC410FD3E2FA284CCB1F6EB7A077B349 /* GGWkBundelManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A086C6BBFD2C9610B80ACC8B17CFA6E4 /* GGWkBundelManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF33967D481965B60B8565A68252A99A /* GGCookie.js in Resources */ = {isa = PBXBuildFile; fileRef = 88F3C78E9FAC7194B514A48F56FCA605 /* GGCookie.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A7080BE739F6EA3DA3FAA22D0AC9CFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03C5AF79A07FF2D563DD1B0A123E73C5;
+			remoteInfo = GGWkCookie;
+		};
+		D8B99D30B2CDB40D0B4CE92632754DE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47A404D6B04DDE470CA3F05C4B1E5324;
+			remoteInfo = "GGWkCookie-GGWkCookie";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0633ABA92851A31770090BDD9DA7FBFA /* WKWebView+GGCookie.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WKWebView+GGCookie.h"; path = "GGWkCookie/Classes/WKWebView+GGCookie.h"; sourceTree = "<group>"; };
+		0812B98523E57F0D0718AA0DEDCCD016 /* GGWkCookie.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GGWkCookie.modulemap; sourceTree = "<group>"; };
+		0B18DC9FD960EBA6E972FAF6F77DD15D /* Pods-GGWkCookie_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GGWkCookie_Tests-dummy.m"; sourceTree = "<group>"; };
+		193D8F1F7BB9F1E2E19407E4BF61990D /* Pods-GGWkCookie_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GGWkCookie_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1E383A5BB9D4DA80E367483D47873959 /* Pods-GGWkCookie_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GGWkCookie_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		228B38591CC00DDE804E747A665AA141 /* Pods-GGWkCookie_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GGWkCookie_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3E55B31E69C2D36CCE63C60F4CCBBCD8 /* Pods-GGWkCookie_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GGWkCookie_Example-frameworks.sh"; sourceTree = "<group>"; };
+		42FA378068EF3AA8C60865CC9CEDE0A2 /* GGWkCookie.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = GGWkCookie.bundle; path = GGWkCookie.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D9B75E7159E3E6A3B2263585EBDD2DA /* Pods-GGWkCookie_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GGWkCookie_Example-resources.sh"; sourceTree = "<group>"; };
+		50A71347C19882F5AD9B866DBA858CAE /* GGWkBundelManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GGWkBundelManager.m; path = GGWkCookie/Classes/GGWkBundelManager.m; sourceTree = "<group>"; };
+		529E98FA29CCF1560D057D894C2726A4 /* Pods-GGWkCookie_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GGWkCookie_Tests-umbrella.h"; sourceTree = "<group>"; };
+		596A5E7C40FB07FDAA78D426185FA95B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5E79AC33A701747795AE14425A548DEA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		643FBBC34A86986F9307366DD7581335 /* WKWebView+Swizzling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WKWebView+Swizzling.h"; path = "GGWkCookie/Classes/WKWebView+Swizzling.h"; sourceTree = "<group>"; };
+		646CA863DB78534321BE0345DADD999D /* Pods-GGWkCookie_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GGWkCookie_Example-dummy.m"; sourceTree = "<group>"; };
+		795DA24D5DAFF79CD900CF0706342368 /* GGWkCookie-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GGWkCookie-umbrella.h"; sourceTree = "<group>"; };
+		7E0E474932AE6FFD8F6A3E1EEA9D1F43 /* GGWkCookie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GGWkCookie.framework; path = GGWkCookie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		883AECB5866174DD5B3EACC2EF030B4D /* Pods-GGWkCookie_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GGWkCookie_Example-umbrella.h"; sourceTree = "<group>"; };
+		88F3C78E9FAC7194B514A48F56FCA605 /* GGCookie.js */ = {isa = PBXFileReference; includeInIndex = 1; name = GGCookie.js; path = GGWkCookie/Assets/GGCookie.js; sourceTree = "<group>"; };
+		92F40171C8945BEE21EF0A14E3C58CD6 /* GGWkCookie.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGWkCookie.h; path = GGWkCookie/Classes/GGWkCookie.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B61DDC6958EB31680274A5577D8CC66 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F3ED13CD6CF7F47361891AB8E8E3F55 /* Pods-GGWkCookie_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGWkCookie_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A086C6BBFD2C9610B80ACC8B17CFA6E4 /* GGWkBundelManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGWkBundelManager.h; path = GGWkCookie/Classes/GGWkBundelManager.h; sourceTree = "<group>"; };
+		A0A99193924C4622E479689C1D8A4DA5 /* Pods-GGWkCookie_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GGWkCookie_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A79B07DFD3B0DA846C560B2E5DA5D01A /* Pods-GGWkCookie_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GGWkCookie_Example.modulemap"; sourceTree = "<group>"; };
+		B558756BD5214C03A6D6F4BC0C7CBBE9 /* Pods-GGWkCookie_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GGWkCookie_Tests.modulemap"; sourceTree = "<group>"; };
+		B9F936486466494E99DECE9B5894BB03 /* WKWebView+Swizzling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "WKWebView+Swizzling.m"; path = "GGWkCookie/Classes/WKWebView+Swizzling.m"; sourceTree = "<group>"; };
+		C1B028E4FECE2AEF839BECF56820DDD4 /* Pods-GGWkCookie_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGWkCookie_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C3411E074EA4FB82AF0025E700643920 /* GGWkCookie-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GGWkCookie-dummy.m"; sourceTree = "<group>"; };
+		CB4D303259C406B37D9905B71B4963D5 /* Pods-GGWkCookie_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GGWkCookie_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		CFACAFB5C344B707ECB339C3A6C7BAA1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5939C2995CD5393C4C52D98DEEDE352 /* WKWebView+GGCookie.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "WKWebView+GGCookie.m"; path = "GGWkCookie/Classes/WKWebView+GGCookie.m"; sourceTree = "<group>"; };
+		D9B00E0AE99395B173A0F0DD524F3024 /* WKWebView+Attribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "WKWebView+Attribute.m"; path = "GGWkCookie/Classes/WKWebView+Attribute.m"; sourceTree = "<group>"; };
+		DBB278488BFD03D1CAF65EA58484C9F4 /* GGWkCookie-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GGWkCookie-prefix.pch"; sourceTree = "<group>"; };
+		E07DFB0B5D1D38292F740B5347FAB80B /* ResourceBundle-GGWkCookie-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-GGWkCookie-Info.plist"; sourceTree = "<group>"; };
+		E177286004AEFA50CE27F0F0F8F500F9 /* WKWebView+Attribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WKWebView+Attribute.h"; path = "GGWkCookie/Classes/WKWebView+Attribute.h"; sourceTree = "<group>"; };
+		E183B6CF02F0C866D3CB9F9C05196EB9 /* Pods-GGWkCookie_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGWkCookie_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E217F3A28403B0959411FF7A85B17FA5 /* Pods-GGWkCookie_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGWkCookie_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		EDDB8272AF7DA52CED82F42852514AD3 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
+		F29DE8E0D04E335D493CC3046376F12B /* GGWkCookie.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GGWkCookie.xcconfig; sourceTree = "<group>"; };
+		F65D064F593E06B4F6CBBA4A3D3BB047 /* Pods-GGWkCookie_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GGWkCookie_Tests-resources.sh"; sourceTree = "<group>"; };
+		F762166D68E80315536046ABAF1FE269 /* Pods_GGWkCookie_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GGWkCookie_Example.framework; path = "Pods-GGWkCookie_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCE533CBC34AD27EF3735F5F6C172E49 /* Pods_GGWkCookie_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GGWkCookie_Tests.framework; path = "Pods-GGWkCookie_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BF8058E12EE2E9826A6CA36506828DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				589D026641D1116ECC8006CA49C2D06B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58C874C40622B24ECA679E96A675088F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A86A508CC210A6BDEF561EF5229AD0E /* Foundation.framework in Frameworks */,
+				6020F0C40E74C3F97A5854F822EA004B /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F58CEDD13287ED8DF8A8871DBBF164C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEF49EA4E7603B6B2A995AD5E3E79865 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DB0F14EC3DDC479DA0B9729FF6B1A8E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0443E56F2273863F7D7847DE895B106D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0812B98523E57F0D0718AA0DEDCCD016 /* GGWkCookie.modulemap */,
+				F29DE8E0D04E335D493CC3046376F12B /* GGWkCookie.xcconfig */,
+				C3411E074EA4FB82AF0025E700643920 /* GGWkCookie-dummy.m */,
+				DBB278488BFD03D1CAF65EA58484C9F4 /* GGWkCookie-prefix.pch */,
+				795DA24D5DAFF79CD900CF0706342368 /* GGWkCookie-umbrella.h */,
+				5E79AC33A701747795AE14425A548DEA /* Info.plist */,
+				E07DFB0B5D1D38292F740B5347FAB80B /* ResourceBundle-GGWkCookie-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GGWkCookie";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				729C424472F1E074A2EF30A6BC5F7C43 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		584D5B8FD1101083C25A504B508C1042 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				88F3C78E9FAC7194B514A48F56FCA605 /* GGCookie.js */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		729C424472F1E074A2EF30A6BC5F7C43 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				596A5E7C40FB07FDAA78D426185FA95B /* Foundation.framework */,
+				EDDB8272AF7DA52CED82F42852514AD3 /* WebKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		75937562CA43FE9205A4E4440CAC5C14 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B22B4CA9B627B18F576C8227A918003 /* GGWkCookie */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7B22B4CA9B627B18F576C8227A918003 /* GGWkCookie */ = {
+			isa = PBXGroup;
+			children = (
+				A086C6BBFD2C9610B80ACC8B17CFA6E4 /* GGWkBundelManager.h */,
+				50A71347C19882F5AD9B866DBA858CAE /* GGWkBundelManager.m */,
+				92F40171C8945BEE21EF0A14E3C58CD6 /* GGWkCookie.h */,
+				E177286004AEFA50CE27F0F0F8F500F9 /* WKWebView+Attribute.h */,
+				D9B00E0AE99395B173A0F0DD524F3024 /* WKWebView+Attribute.m */,
+				0633ABA92851A31770090BDD9DA7FBFA /* WKWebView+GGCookie.h */,
+				D5939C2995CD5393C4C52D98DEEDE352 /* WKWebView+GGCookie.m */,
+				643FBBC34A86986F9307366DD7581335 /* WKWebView+Swizzling.h */,
+				B9F936486466494E99DECE9B5894BB03 /* WKWebView+Swizzling.m */,
+				584D5B8FD1101083C25A504B508C1042 /* Resources */,
+				0443E56F2273863F7D7847DE895B106D /* Support Files */,
+			);
+			name = GGWkCookie;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				75937562CA43FE9205A4E4440CAC5C14 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				E8CDD0753B7A2D960AD863F9BCE5F27E /* Products */,
+				8243418D3C01F1F7C44EBAE077BB644A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8243418D3C01F1F7C44EBAE077BB644A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C12722C05DDBF19EABAF375E494E1EA9 /* Pods-GGWkCookie_Example */,
+				EEC251C6E8BA04354237347E8FBFE62D /* Pods-GGWkCookie_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C12722C05DDBF19EABAF375E494E1EA9 /* Pods-GGWkCookie_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9B61DDC6958EB31680274A5577D8CC66 /* Info.plist */,
+				A79B07DFD3B0DA846C560B2E5DA5D01A /* Pods-GGWkCookie_Example.modulemap */,
+				A0A99193924C4622E479689C1D8A4DA5 /* Pods-GGWkCookie_Example-acknowledgements.markdown */,
+				CB4D303259C406B37D9905B71B4963D5 /* Pods-GGWkCookie_Example-acknowledgements.plist */,
+				646CA863DB78534321BE0345DADD999D /* Pods-GGWkCookie_Example-dummy.m */,
+				3E55B31E69C2D36CCE63C60F4CCBBCD8 /* Pods-GGWkCookie_Example-frameworks.sh */,
+				4D9B75E7159E3E6A3B2263585EBDD2DA /* Pods-GGWkCookie_Example-resources.sh */,
+				883AECB5866174DD5B3EACC2EF030B4D /* Pods-GGWkCookie_Example-umbrella.h */,
+				E217F3A28403B0959411FF7A85B17FA5 /* Pods-GGWkCookie_Example.debug.xcconfig */,
+				E183B6CF02F0C866D3CB9F9C05196EB9 /* Pods-GGWkCookie_Example.release.xcconfig */,
+			);
+			name = "Pods-GGWkCookie_Example";
+			path = "Target Support Files/Pods-GGWkCookie_Example";
+			sourceTree = "<group>";
+		};
+		E8CDD0753B7A2D960AD863F9BCE5F27E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42FA378068EF3AA8C60865CC9CEDE0A2 /* GGWkCookie.bundle */,
+				7E0E474932AE6FFD8F6A3E1EEA9D1F43 /* GGWkCookie.framework */,
+				F762166D68E80315536046ABAF1FE269 /* Pods_GGWkCookie_Example.framework */,
+				FCE533CBC34AD27EF3735F5F6C172E49 /* Pods_GGWkCookie_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEC251C6E8BA04354237347E8FBFE62D /* Pods-GGWkCookie_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CFACAFB5C344B707ECB339C3A6C7BAA1 /* Info.plist */,
+				B558756BD5214C03A6D6F4BC0C7CBBE9 /* Pods-GGWkCookie_Tests.modulemap */,
+				193D8F1F7BB9F1E2E19407E4BF61990D /* Pods-GGWkCookie_Tests-acknowledgements.markdown */,
+				228B38591CC00DDE804E747A665AA141 /* Pods-GGWkCookie_Tests-acknowledgements.plist */,
+				0B18DC9FD960EBA6E972FAF6F77DD15D /* Pods-GGWkCookie_Tests-dummy.m */,
+				1E383A5BB9D4DA80E367483D47873959 /* Pods-GGWkCookie_Tests-frameworks.sh */,
+				F65D064F593E06B4F6CBBA4A3D3BB047 /* Pods-GGWkCookie_Tests-resources.sh */,
+				529E98FA29CCF1560D057D894C2726A4 /* Pods-GGWkCookie_Tests-umbrella.h */,
+				9F3ED13CD6CF7F47361891AB8E8E3F55 /* Pods-GGWkCookie_Tests.debug.xcconfig */,
+				C1B028E4FECE2AEF839BECF56820DDD4 /* Pods-GGWkCookie_Tests.release.xcconfig */,
+			);
+			name = "Pods-GGWkCookie_Tests";
+			path = "Target Support Files/Pods-GGWkCookie_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8B56AB49E91BB670195434319B516A3F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24E86302AF2CD90FCA14FDCC421E41D9 /* Pods-GGWkCookie_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5E0B438956D525EC25346BA26577177 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC410FD3E2FA284CCB1F6EB7A077B349 /* GGWkBundelManager.h in Headers */,
+				C94B5123A4B6E988C5880BA9612C8161 /* GGWkCookie-umbrella.h in Headers */,
+				774ACBBF08A9A46BE6363091451B8CDA /* GGWkCookie.h in Headers */,
+				8C55C58DF12CD59F60FB8DAEB5212C92 /* WKWebView+Attribute.h in Headers */,
+				D0FE421388E2F6F29209391AFD08407B /* WKWebView+GGCookie.h in Headers */,
+				2E0CE21063061EE73E227E218D4107C8 /* WKWebView+Swizzling.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE3AF4CEC4CD85312E41E346F15C4CEE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DC0E47EEF636017B62DDDDCA4E1F73B /* Pods-GGWkCookie_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		03C5AF79A07FF2D563DD1B0A123E73C5 /* GGWkCookie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA666B77F833640C451D630CE208F652 /* Build configuration list for PBXNativeTarget "GGWkCookie" */;
+			buildPhases = (
+				62720F65E5784894C5A3136565EA0395 /* Sources */,
+				58C874C40622B24ECA679E96A675088F /* Frameworks */,
+				AD52E0FACC7615AEACCB364DD6E305C8 /* Resources */,
+				A5E0B438956D525EC25346BA26577177 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B4DFADEE40D1A9FBB1A8E05F3806BD7 /* PBXTargetDependency */,
+			);
+			name = GGWkCookie;
+			productName = GGWkCookie;
+			productReference = 7E0E474932AE6FFD8F6A3E1EEA9D1F43 /* GGWkCookie.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		47A404D6B04DDE470CA3F05C4B1E5324 /* GGWkCookie-GGWkCookie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 858944A3A581BBE95AE71508972AA385 /* Build configuration list for PBXNativeTarget "GGWkCookie-GGWkCookie" */;
+			buildPhases = (
+				0441E69C83EBD17E86EA9CF26AF4F64C /* Sources */,
+				8F58CEDD13287ED8DF8A8871DBBF164C /* Frameworks */,
+				FCD858F09977CBB55155FFD6529CF917 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GGWkCookie-GGWkCookie";
+			productName = "GGWkCookie-GGWkCookie";
+			productReference = 42FA378068EF3AA8C60865CC9CEDE0A2 /* GGWkCookie.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		4E1CA212439E937506EAB427D02B3004 /* Pods-GGWkCookie_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B7D71948FBBFF54C56E22E806EAC5A1 /* Build configuration list for PBXNativeTarget "Pods-GGWkCookie_Example" */;
+			buildPhases = (
+				85ED7CFC06AB0DD53EF9785D164E1562 /* Sources */,
+				DEF49EA4E7603B6B2A995AD5E3E79865 /* Frameworks */,
+				BE3AF4CEC4CD85312E41E346F15C4CEE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2053E0A01F9CAF155DBA2D667427363 /* PBXTargetDependency */,
+			);
+			name = "Pods-GGWkCookie_Example";
+			productName = "Pods-GGWkCookie_Example";
+			productReference = F762166D68E80315536046ABAF1FE269 /* Pods_GGWkCookie_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EFF93AC979AAD281AE7B56FFAF84A86D /* Pods-GGWkCookie_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3529ECEC279FDA99101D0E2E5888B59D /* Build configuration list for PBXNativeTarget "Pods-GGWkCookie_Tests" */;
+			buildPhases = (
+				C80B2DDFB448237ABA752ECFB47CC1DA /* Sources */,
+				2BF8058E12EE2E9826A6CA36506828DA /* Frameworks */,
+				8B56AB49E91BB670195434319B516A3F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GGWkCookie_Tests";
+			productName = "Pods-GGWkCookie_Tests";
+			productReference = FCE533CBC34AD27EF3735F5F6C172E49 /* Pods_GGWkCookie_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E8CDD0753B7A2D960AD863F9BCE5F27E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03C5AF79A07FF2D563DD1B0A123E73C5 /* GGWkCookie */,
+				47A404D6B04DDE470CA3F05C4B1E5324 /* GGWkCookie-GGWkCookie */,
+				4E1CA212439E937506EAB427D02B3004 /* Pods-GGWkCookie_Example */,
+				EFF93AC979AAD281AE7B56FFAF84A86D /* Pods-GGWkCookie_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD52E0FACC7615AEACCB364DD6E305C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D9F8B5EF0A274D337AD90DD14C6E821 /* GGWkCookie.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD858F09977CBB55155FFD6529CF917 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF33967D481965B60B8565A68252A99A /* GGCookie.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0441E69C83EBD17E86EA9CF26AF4F64C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62720F65E5784894C5A3136565EA0395 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0983C7B41BEA7DB12AD60C881151B13D /* GGWkBundelManager.m in Sources */,
+				B52ED6463F48AF002DD9FF2F701FEE55 /* GGWkCookie-dummy.m in Sources */,
+				C4B1BDCA64E0546AE1F55F55449E76BD /* WKWebView+Attribute.m in Sources */,
+				7EC174E2D5350814D9523F4F4B515DC4 /* WKWebView+GGCookie.m in Sources */,
+				BFD50BD8BD2443FB1F2620335A606E4F /* WKWebView+Swizzling.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85ED7CFC06AB0DD53EF9785D164E1562 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC8ADE285EEA672D5A06A85A8F9A288 /* Pods-GGWkCookie_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C80B2DDFB448237ABA752ECFB47CC1DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20DDE971372E231372E6264855FDD3C8 /* Pods-GGWkCookie_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B4DFADEE40D1A9FBB1A8E05F3806BD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "GGWkCookie-GGWkCookie";
+			target = 47A404D6B04DDE470CA3F05C4B1E5324 /* GGWkCookie-GGWkCookie */;
+			targetProxy = D8B99D30B2CDB40D0B4CE92632754DE3 /* PBXContainerItemProxy */;
+		};
+		A2053E0A01F9CAF155DBA2D667427363 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GGWkCookie;
+			target = 03C5AF79A07FF2D563DD1B0A123E73C5 /* GGWkCookie */;
+			targetProxy = 3A7080BE739F6EA3DA3FAA22D0AC9CFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		280629561F419B598A51C42FFBAEB50A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F3ED13CD6CF7F47361891AB8E8E3F55 /* Pods-GGWkCookie_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GGWkCookie_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GGWkCookie_Tests/Pods-GGWkCookie_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GGWkCookie_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		819D13001491EF65280B03E52B6AE902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F29DE8E0D04E335D493CC3046376F12B /* GGWkCookie.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GGWkCookie/GGWkCookie-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GGWkCookie/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GGWkCookie/GGWkCookie.modulemap";
+				PRODUCT_NAME = GGWkCookie;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9D75F7FE599AB44109F364E28D1FF30B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E183B6CF02F0C866D3CB9F9C05196EB9 /* Pods-GGWkCookie_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GGWkCookie_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GGWkCookie_Example/Pods-GGWkCookie_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GGWkCookie_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BC7AE2FFE746BFBDE0F307DFA0FEEB5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F29DE8E0D04E335D493CC3046376F12B /* GGWkCookie.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GGWkCookie";
+				INFOPLIST_FILE = "Target Support Files/GGWkCookie/ResourceBundle-GGWkCookie-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = GGWkCookie;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		CEBD128696E6AACDA3185B6C0FAC2F9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F29DE8E0D04E335D493CC3046376F12B /* GGWkCookie.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GGWkCookie/GGWkCookie-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GGWkCookie/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GGWkCookie/GGWkCookie.modulemap";
+				PRODUCT_NAME = GGWkCookie;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D1BDCF12591DD7BDA8F283898818309D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1B028E4FECE2AEF839BECF56820DDD4 /* Pods-GGWkCookie_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GGWkCookie_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GGWkCookie_Tests/Pods-GGWkCookie_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GGWkCookie_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EAD17CB5760F25FC974E5FCA044F26F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E217F3A28403B0959411FF7A85B17FA5 /* Pods-GGWkCookie_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GGWkCookie_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GGWkCookie_Example/Pods-GGWkCookie_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GGWkCookie_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ED4D845C2B92ED103A9547977F164F52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F29DE8E0D04E335D493CC3046376F12B /* GGWkCookie.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GGWkCookie";
+				INFOPLIST_FILE = "Target Support Files/GGWkCookie/ResourceBundle-GGWkCookie-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = GGWkCookie;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */,
+				B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3529ECEC279FDA99101D0E2E5888B59D /* Build configuration list for PBXNativeTarget "Pods-GGWkCookie_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				280629561F419B598A51C42FFBAEB50A /* Debug */,
+				D1BDCF12591DD7BDA8F283898818309D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B7D71948FBBFF54C56E22E806EAC5A1 /* Build configuration list for PBXNativeTarget "Pods-GGWkCookie_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAD17CB5760F25FC974E5FCA044F26F2 /* Debug */,
+				9D75F7FE599AB44109F364E28D1FF30B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		858944A3A581BBE95AE71508972AA385 /* Build configuration list for PBXNativeTarget "GGWkCookie-GGWkCookie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC7AE2FFE746BFBDE0F307DFA0FEEB5C /* Debug */,
+				ED4D845C2B92ED103A9547977F164F52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA666B77F833640C451D630CE208F652 /* Build configuration list for PBXNativeTarget "GGWkCookie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBD128696E6AACDA3185B6C0FAC2F9D /* Debug */,
+				819D13001491EF65280B03E52B6AE902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

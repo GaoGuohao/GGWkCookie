@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GGWkCookie_Example' do
+  pod 'GGWkCookie', :path => '../'
+
+  target 'GGWkCookie_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
