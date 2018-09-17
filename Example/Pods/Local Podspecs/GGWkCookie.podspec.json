@@ -1,8 +1,7 @@
 {
   "name": "GGWkCookie",
   "version": "0.1.0",
-  "summary": "A short description of GGWkCookie.",
-  "description": "解决 WKWebView cookie 设置难题。",
+  "summary": "解决 WKWebView cookie 设置难题",
   "homepage": "https://github.com/gaoguohao/GGWkCookie",
   "license": {
     "type": "MIT",
@@ -24,6 +23,5 @@
       "GGWkCookie/Assets/*"
     ]
   },
-  "public_header_files": "Pod/Classes/GGWkCookie.h",
   "frameworks": "WebKit"
 }

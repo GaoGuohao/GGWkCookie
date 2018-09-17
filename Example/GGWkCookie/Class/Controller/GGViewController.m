@@ -7,8 +7,9 @@
 //
 
 #import "GGViewController.h"
-#import "GGWkCookie.h"
 #import "GGCookiesViewController.h"
+//#import <GGWkCookie/GGWkCookie.h>
+#import "GGWkCookie.h"
 
 
 @interface GGViewController ()<WKUIDelegate,WKNavigationDelegate,GGWkWebViewDelegate>

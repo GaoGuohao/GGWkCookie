@@ -29,6 +29,6 @@ Pod::Spec.new do |s|
     'GGWkCookie' => ['GGWkCookie/Assets/*']
   }
 
-  s.public_header_files = 'GGWkCookie/Classes/GGWkCookie.h'
+#  s.public_header_files = 'GGWkCookie/Classes/GGWkCookie.h'
   s.frameworks = 'WebKit'
 end

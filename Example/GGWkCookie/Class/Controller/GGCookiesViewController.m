@@ -10,6 +10,7 @@
 #import "GGCookieCell.h"
 #import "GGAddCookieCell.h"
 
+
 @interface GGCookiesViewController ()<UITableViewDelegate,UITableViewDataSource, GGAddCookieCellDelegate> {
     
     __weak IBOutlet UITableView *_tableView;
