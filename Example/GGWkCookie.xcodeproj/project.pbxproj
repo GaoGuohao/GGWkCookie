@@ -256,7 +256,6 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				83AFE5112EB5303901F9EE97 /* [CP] Embed Pods Frameworks */,
-				8E090AFF99A7CD2B6F24B780 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -275,8 +274,6 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				E8970B3BDEB08089AC24D7E7 /* [CP] Embed Pods Frameworks */,
-				B7D0737030D066B6A453576D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -308,6 +305,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -354,7 +352,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-GGWkCookie_Example/Pods-GGWkCookie_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-GGWkCookie_Example/Pods-GGWkCookie_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GGWkCookie/GGWkCookie.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -363,40 +361,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GGWkCookie_Example/Pods-GGWkCookie_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8E090AFF99A7CD2B6F24B780 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-GGWkCookie_Example/Pods-GGWkCookie_Example-resources.sh",
-				"$PODS_CONFIGURATION_BUILD_DIR/GGWkCookie/GGWkCookie.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GGWkCookie_Example/Pods-GGWkCookie_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B7D0737030D066B6A453576D /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GGWkCookie_Tests/Pods-GGWkCookie_Tests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GGWkCookie_Example/Pods-GGWkCookie_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E0B5090ACCAB857A0F2E07C6 /* [CP] Check Pods Manifest.lock */ = {
@@ -415,21 +380,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E8970B3BDEB08089AC24D7E7 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GGWkCookie_Tests/Pods-GGWkCookie_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EEF2F82C8CC5E6FDC9F740B2 /* [CP] Check Pods Manifest.lock */ = {
@@ -594,6 +544,7 @@
 				GCC_PREFIX_HEADER = "GGWkCookie/GGWkCookie-Prefix.pch";
 				INFOPLIST_FILE = "GGWkCookie/GGWkCookie-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MARKETING_VERSION = 0.1.1;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -610,6 +561,7 @@
 				GCC_PREFIX_HEADER = "GGWkCookie/GGWkCookie-Prefix.pch";
 				INFOPLIST_FILE = "GGWkCookie/GGWkCookie-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MARKETING_VERSION = 0.1.1;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

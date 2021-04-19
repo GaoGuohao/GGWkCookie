@@ -1,6 +1,6 @@
 {
   "name": "GGWkCookie",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "解决 WKWebView cookie 设置难题",
   "homepage": "https://github.com/gaoguohao/GGWkCookie",
   "license": {
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/gaoguohao/GGWkCookie.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
