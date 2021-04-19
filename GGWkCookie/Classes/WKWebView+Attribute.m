@@ -24,7 +24,7 @@ static NSString *delegatePointer;
 static NSString *cookieKeyValuePointer;
 
 - (void)setCookieKeyValue:(NSDictionary *)cookieKeyValue {
-    objc_setAssociatedObject(self, &cookieKeyValuePointer, cookieKeyValue, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+    objc_setAssociatedObject(self, &cookieKeyValuePointer, cookieKeyValue, OBJC_ASSOCIATION_COPY_NONATOMIC);
 }
 
 - (NSDictionary *)cookieKeyValue {
