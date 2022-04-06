@@ -14,7 +14,7 @@ var app_rootDomain = (
 
         var rootDomain = document.domain;
         
-        ds =  {'com':'1','cn':'1','net':'1','org':'1', 'cc':'1', 'co':'1', 'top':'1', 'vip':'1', 'club':'1', 'info':'1'};
+        ds =  {'com':'1','cn':'1','net':'1','org':'1', 'cc':'1', 'co':'1', 'top':'1', 'vip':'1', 'club':'1', 'info':'1', 'tech': '1', 'gov': '1', 'edu': '1', 'mil': '1'};
         
         arr = rootDomain.split('.');
         
