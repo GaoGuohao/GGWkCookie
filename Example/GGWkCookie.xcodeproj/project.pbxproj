@@ -43,7 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		18174485BFD271371A951591 /* GGWkCookie.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GGWkCookie.podspec; path = ../GGWkCookie.podspec; sourceTree = "<group>"; };
+		18174485BFD271371A951591 /* GGWkCookie.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GGWkCookie.podspec; path = ../GGWkCookie.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		20485FF61662D5F444DE1A22 /* Pods_GGWkCookie_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GGWkCookie_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		515AF27DFFDEA809C4446D85 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* GGWkCookie_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GGWkCookie_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };

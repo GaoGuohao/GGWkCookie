@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GGWkCookie'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = '解决 WKWebView cookie 设置难题'
 
 #s.description      = <<-DESC
