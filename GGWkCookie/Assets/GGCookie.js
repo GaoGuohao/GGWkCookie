@@ -37,10 +37,10 @@ var app_rootDomain = (
 function app_setCookie(name, value) {
 
     // 检测cookie如果没有的话，再进行添加
-    if (app_cookieNames.indexOf(name) == -1) {
+//    if (app_cookieNames.indexOf(name) == -1) {
         // 直接将cookie中到根域名
         document.cookie = name + '=' + value + ';domain=' + app_rootDomain + ';path=/';             
-    }
+//    }
 }
 
 
