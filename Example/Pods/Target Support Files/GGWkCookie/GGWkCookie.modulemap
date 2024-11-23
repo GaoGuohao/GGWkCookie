@@ -1,6 +1,0 @@
-framework module GGWkCookie {
-  umbrella header "GGWkCookie-umbrella.h"
-
-  export *
-  module * { export * }
-}
