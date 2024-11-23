@@ -27,7 +27,10 @@
     if([self.cookieKeyValue isKindOfClass:[NSDictionary class]] ||
        [self.cookieKeyValue isKindOfClass:[NSMutableDictionary class]]){
         
-        NSString *cookie = @"";
+        NSString *cookie = [request valueForHTTPHeaderField:@"Cookie"];
+        if (!cookie || [cookie isKindOfClass:[NSNull class]]) {
+            cookie = @"";
+        }
         for (NSString *key in self.cookieKeyValue.allKeys) {
             NSString *keyValue = [NSString stringWithFormat:@"%@=%@;",key,[self.cookieKeyValue objectForKey:key]];
             cookie = [cookie stringByAppendingString:keyValue];
